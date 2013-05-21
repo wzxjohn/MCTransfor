@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!-- String resource that can be localized -->
+    <system:String x:Key="start">开始</system:String>
+    <system:String x:Key="oldPathLable">现有.minecraft路径：</system:String>
+    <system:String x:Key="newPathLable">官方.minecraft路径：</system:String>
+    <system:String x:Key="browse">浏览</system:String>
+    <system:String x:Key="error">错误</system:String>
+    <system:String x:Key="doNotSelectOldPath">没有选择现有.minecraft路径！</system:String>
+    <system:String x:Key="doNotSelectNewPath">没有选择官方.minecraft路径！</system:String>
+    <system:String x:Key="existsTitle">注意</system:String>
+    <system:String x:Key="existsMessage">官方.minecraft文件夹非空！是否备份？</system:String>
+    <system:String x:Key="backupTitle">提示</system:String>
+    <system:String x:Key="backupStartMessageLine1">备份开始！</system:String>
+    <system:String x:Key="backupStartMessageLine2">根据备份大小，备份过程可能会持续数分钟，请不要终止程序！</system:String>
+    <system:String x:Key="backupFinishMessage">备份成功！</system:String>
+    <system:String x:Key="deleteStartMessageLine1">删除开始！</system:String>
+    <system:String x:Key="deleteStartMessageLine2">根据原式文件大小，删除过程可能会持续数分钟，请不要终止程序！确定开始删除？</system:String>
+    <system:String x:Key="deleteFinishMessage">删除成功！</system:String>
+    <system:String x:Key="moveStartMessageLine1">移动开始！</system:String>
+    <system:String x:Key="moveStartMessageLine2">根据需要移动的文件大小，移动过程可能会持续数分钟，请不要终止程序！</system:String>
+    <system:String x:Key="moveFinishMessage">移动完成！</system:String>
+    <system:String x:Key="oldPathNotExist">原式文件不存在！请检查路径！</system:String>
+
+</ResourceDictionary>

@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!-- String resource that can be localized -->
+    <system:String x:Key="start">Start</system:String>
+    <system:String x:Key="oldPathLable">Exist .minecraft Path:</system:String>
+    <system:String x:Key="newPathLable">Offical .minecraft Path:</system:String>
+    <system:String x:Key="browse">Browse</system:String>
+    <system:String x:Key="error">Error</system:String>
+    <system:String x:Key="doNotSelectOldPath">Do not selected exists .minecraft path!</system:String>
+    <system:String x:Key="doNotSelectNewPath">Do not selected offical .minecraft path!</system:String>
+    <system:String x:Key="existsTitle">Attention</system:String>
+    <system:String x:Key="existsMessage">Offical .minecraft folder is not empty! Need backup?</system:String>
+    <system:String x:Key="backupTitle">Hint</system:String>
+    <system:String x:Key="backupStartMessageLine1">Backup Start!</system:String>
+    <system:String x:Key="backupStartMessageLine2">According to the size to backup, the backup process may last for a few minutes, do not terminate this program!</system:String>
+    <system:String x:Key="backupFinishMessage">Backup Success!</system:String>
+    <system:String x:Key="deleteStartMessageLine1">Delete Start!</system:String>
+    <system:String x:Key="deleteStartMessageLine2">According to the size to delete, the delete process may last for a few minutes, do not terminate this program! Confirm Delete?</system:String>
+    <system:String x:Key="deleteFinishMessage">Delect Success!</system:String>
+    <system:String x:Key="moveStartMessageLine1">Move Start!</system:String>
+    <system:String x:Key="moveStartMessageLine2">According to the size to move, the move process may last for a few minutes, do not terminate this program!</system:String>
+    <system:String x:Key="moveFinishMessage">Move Success!</system:String>
+    <system:String x:Key="oldPathNotExist">Exists .minecraft path don't exist! Please check the path!</system:String>
+
+
+</ResourceDictionary>

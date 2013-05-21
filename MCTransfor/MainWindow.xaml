@@ -1,0 +1,15 @@
+﻿<Window x:Name="MainWindow1" x:Class="MCTransfor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Minecraft Transfor" Height="206" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="with256.ico">
+    <Grid>
+        <TextBox x:Name="oldPath" HorizontalAlignment="Left" Height="23" Margin="10,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" Text=".\.minecraft"/>
+        <Label x:Name="oldLable" Content="{DynamicResource oldPathLable}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="oldButton" Content="{DynamicResource browse}" HorizontalAlignment="Left" Margin="395,40,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="oldButton_Click"/>
+        <TextBox x:Name="newPath" HorizontalAlignment="Left" Height="23" Margin="10,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380"/>
+        <Label x:Name="newLable" Content="{DynamicResource newPathLable}" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="newButton" Content="{DynamicResource browse}" HorizontalAlignment="Left" Margin="395,98,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="newButton_Click"/>
+        <Button x:Name="startButton" Content="{DynamicResource start}" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top" Width="460" Height="29" Click="startButton_Click"/>
+
+    </Grid>
+</Window>
